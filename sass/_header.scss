@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  flex: 100%;
+  height: 70px;
+  padding: 3rem;
+  padding-bottom: 0;
+}
+
+.logoContainer {
+  padding: 10px;
+  text-align: center;
+}
+
+.cseLogo,
+.otcLogo {
+  width: 100px;
+  padding: 5px;
+  height: 25px;
+}
