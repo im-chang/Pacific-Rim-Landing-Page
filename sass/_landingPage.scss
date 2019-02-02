@@ -11,6 +11,27 @@
   width: 100vw;
 }
 
+.banner2 {
+  background: url('/images/Image 2.jpg') no-repeat;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  .textBackground {
+    background: $color__backgroundOne;
+    opacity: 0.8;
+    width: 90vw;
+    padding-left: 1rem;
+    p {
+      font-weight: bold;
+      span {
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
 .invest,
 .ahead,
 .video {
@@ -46,4 +67,12 @@
 
 .charge {
   text-align: center;
+}
+
+ol {
+  margin-left: 40px;
+  margin-right: 40px;
+  li {
+    list-style-type: decimal;
+  }
 }
