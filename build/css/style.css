@@ -196,11 +196,20 @@ ul {
     list-style-type: disc; }
 
 .sectionContainer {
-  margin: 2rem; }
-
-.percent {
-  border-bottom: 2px solid grey; }
+  padding: 2rem; }
 
 .banner1 img,
 .banner3 {
   width: 100vw; }
+
+.invest,
+.ahead,
+.video {
+  background: #f8f9fa; }
+
+.video {
+  padding: 5px; }
+  .video iframe {
+    padding: 35px;
+    padding-bottom: 0;
+    padding-top: 10px; }

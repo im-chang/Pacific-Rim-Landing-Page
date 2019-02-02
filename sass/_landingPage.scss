@@ -2,3 +2,19 @@
 .banner3 {
   width: 100vw;
 }
+
+.invest,
+.ahead,
+.video {
+  background: $color__backgroundOne;
+}
+
+.video {
+  padding: 5px;
+
+  iframe {
+    padding: 35px;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+}
