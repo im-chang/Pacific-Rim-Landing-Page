@@ -1,5 +1,9 @@
-.title h1 {
+.title {
   border-bottom: $color_borderTwo;
+}
+
+.opportunity h1 {
+  padding-top: 10px;
 }
 
 .banner1 img,
@@ -17,12 +21,12 @@
   padding: 5px;
   text-align: center;
   iframe {
-    padding: 35px;
     padding-bottom: 0;
     padding-top: 10px;
   }
 }
 
+.circleImg,
 .investIcon {
   text-align: center;
 }
