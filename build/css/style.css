@@ -176,7 +176,8 @@ li {
   font-family: Roboto; }
 
 h1 {
-  font-size: 30px; }
+  font-size: 30px;
+  border-bottom: 2px solid #f4f4f4; }
 
 span {
   font-weight: bold; }
@@ -198,6 +199,9 @@ ul {
 .sectionContainer {
   padding: 2rem; }
 
+.title h1 {
+  border-bottom: 4px solid #000; }
+
 .banner1 img,
 .banner3 {
   width: 100vw; }
@@ -208,8 +212,23 @@ ul {
   background: #f8f9fa; }
 
 .video {
-  padding: 5px; }
+  padding: 5px;
+  text-align: center; }
   .video iframe {
     padding: 35px;
     padding-bottom: 0;
     padding-top: 10px; }
+
+.investIcon {
+  text-align: center; }
+
+.singleCharge {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .singleCharge h2 {
+    font-weight: bold; }
+  .singleCharge h3 {
+    border-bottom: 2px solid #f4f4f4; }
+
+.charge {
+  text-align: center; }
