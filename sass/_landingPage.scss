@@ -1,14 +1,26 @@
 .title {
   border-bottom: $color_borderTwo;
+  h1 {
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+}
+
+.about .sectionContainer {
+  background: white;
 }
 
 .opportunity h1 {
   padding-top: 10px;
 }
 
-.banner1 img,
-.banner3 {
-  width: 100vw;
+.banner1 {
+  background: url('/images/Title Image.jpg') no-repeat;
+  padding-top: 3.5rem;
+  background-size: 100vw 30vh;
 }
 
 .banner2 {
@@ -22,7 +34,9 @@
     background: $color__backgroundOne;
     opacity: 0.8;
     width: 90vw;
-    padding-left: 1rem;
+    margin: 1.5rem;
+    margin-left: 0;
+    padding-left: 1.2rem;
     p {
       font-weight: bold;
       span {
@@ -32,6 +46,10 @@
   }
 }
 
+.banner3 {
+  width: 100vw;
+}
+
 .invest,
 .ahead,
 .video {
@@ -39,8 +57,14 @@
 }
 
 .video {
-  padding: 5px;
+  padding: 1.5rem;
   text-align: center;
+  h2 {
+    font-size: 13px;
+  }
+  p {
+    text-align: left;
+  }
   iframe {
     padding-bottom: 0;
     padding-top: 10px;

@@ -176,7 +176,13 @@ li {
   font-family: Roboto; }
 
 h1 {
-  font-size: 30px;
+  font-size: 30px; }
+
+h2 {
+  font-weight: bold;
+  font-size: 19px; }
+
+.sectionTitle {
   border-bottom: 2px solid #f4f4f4;
   padding-bottom: 10px; }
 
@@ -199,17 +205,27 @@ ul {
     list-style-type: disc; }
 
 .sectionContainer {
-  padding: 2rem; }
+  margin: 1.5rem;
+  padding: 1rem; }
 
 .title {
   border-bottom: 4px solid #000; }
+  .title h1 {
+    font-weight: bold; }
+  .title h2 {
+    font-size: 30px;
+    font-weight: lighter; }
+
+.about .sectionContainer {
+  background: white; }
 
 .opportunity h1 {
   padding-top: 10px; }
 
-.banner1 img,
-.banner3 {
-  width: 100vw; }
+.banner1 {
+  background: url("/images/Title Image.jpg") no-repeat;
+  padding-top: 3.5rem;
+  background-size: 100vw 30vh; }
 
 .banner2 {
   background: url("/images/Image 2.jpg") no-repeat;
@@ -226,11 +242,16 @@ ul {
     background: #f8f9fa;
     opacity: 0.8;
     width: 90vw;
-    padding-left: 1rem; }
+    margin: 1.5rem;
+    margin-left: 0;
+    padding-left: 1.2rem; }
     .banner2 .textBackground p {
       font-weight: bold; }
       .banner2 .textBackground p span {
         font-weight: lighter; }
+
+.banner3 {
+  width: 100vw; }
 
 .invest,
 .ahead,
@@ -238,8 +259,12 @@ ul {
   background: #f8f9fa; }
 
 .video {
-  padding: 5px;
+  padding: 1.5rem;
   text-align: center; }
+  .video h2 {
+    font-size: 13px; }
+  .video p {
+    text-align: left; }
   .video iframe {
     padding-bottom: 0;
     padding-top: 10px; }

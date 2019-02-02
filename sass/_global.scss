@@ -9,6 +9,13 @@ li {
 
 h1 {
   font-size: 30px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.sectionTitle {
   border-bottom: $color_borderOne;
   padding-bottom: 10px;
 }
@@ -36,5 +43,6 @@ ul {
 }
 
 .sectionContainer {
-  padding: 2rem;
+  margin: 1.5rem;
+  padding: 1rem;
 }
