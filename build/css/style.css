@@ -173,7 +173,7 @@ h3,
 p,
 span,
 li {
-  font-family: "Roboto"; }
+  font-family: Roboto; }
 
 h1 {
   font-size: 30px; }
@@ -183,8 +183,10 @@ h2 {
   font-size: 19px; }
 
 .sectionTitle {
-  border-bottom: 2px solid #f4f4f4;
   padding-bottom: 10px; }
+
+.headerDivider {
+  width: 100%; }
 
 span {
   font-weight: bold; }
@@ -209,7 +211,8 @@ ul {
   padding: 1rem; }
 
 .title {
-  border-bottom: 4px solid #000; }
+  border-bottom: 4px solid #000;
+  padding-bottom: 1rem; }
   .title h1 {
     font-weight: bold; }
   .title h2 {
