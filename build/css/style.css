@@ -187,7 +187,8 @@ h2 {
   line-height: 30px; }
 
 .headerDivider,
-.headerDivider2 {
+.headerDivider2,
+.headerDivider3 {
   width: 100%; }
 
 span {
@@ -214,11 +215,10 @@ ul {
 
 .title {
   border-bottom: 4px solid #000;
-  padding-bottom: 1rem; }
+  padding-bottom: 1.5rem; }
   .title h1 {
     font-weight: bold; }
   .title h2 {
-    font-size: 30px;
     font-weight: lighter; }
 
 .about .sectionContainer {
@@ -256,7 +256,7 @@ ul {
 
 .banner3 {
   background: url("../../images/Why-China-Image.jpg") no-repeat center;
-  height: 28vh; }
+  height: 21vh; }
 
 .invest,
 .ahead,
@@ -281,6 +281,10 @@ ul {
 .circleImg,
 .investIcon {
   text-align: center; }
+
+.percent {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .singleCharge {
   padding-top: 15px;

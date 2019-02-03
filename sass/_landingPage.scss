@@ -1,11 +1,10 @@
 .title {
   border-bottom: $color_borderTwo;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   h1 {
     font-weight: bold;
   }
   h2 {
-    font-size: 30px;
     font-weight: lighter;
   }
 }
@@ -48,7 +47,7 @@
 
 .banner3 {
   background: url('../../images/Why-China-Image.jpg') no-repeat center;
-  height: 28vh;
+  height: 21vh;
 }
 
 .invest,
@@ -80,6 +79,11 @@
 .circleImg,
 .investIcon {
   text-align: center;
+}
+
+.percent {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .singleCharge {
