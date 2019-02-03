@@ -148,24 +148,24 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-
-.logo {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  height: 70px;
-  padding: 2rem;
-  padding-bottom: 0; }
-
-.logoContainer {
-  padding: 10px;
-  text-align: center; }
-
-.cseLogo,
-.otcLogo {
-  width: 100px;
-  padding: 5px;
-  height: 25px; }
+  header .logo {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    height: 70px;
+    padding: 2rem;
+    padding-bottom: 0; }
+  header .logoContainer {
+    padding: 10px;
+    text-align: center; }
+  header .cseLogo,
+  header .otcLogo {
+    width: 100px;
+    padding: 5px;
+    height: 25px; }
+  header p {
+    margin: 0;
+    font-weight: bold; }
 
 h1,
 h2,
@@ -183,9 +183,11 @@ h2 {
   font-size: 19px; }
 
 .sectionTitle {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  line-height: 30px; }
 
-.headerDivider {
+.headerDivider,
+.headerDivider2 {
   width: 100%; }
 
 span {
@@ -253,9 +255,8 @@ ul {
         font-weight: lighter; }
 
 .banner3 {
-  background: url("../../images/Why-China-Image.jpg") no-repeat;
-  padding-top: 3.5rem;
-  height: 19vh; }
+  background: url("../../images/Why-China-Image.jpg") no-repeat center;
+  height: 28vh; }
 
 .invest,
 .ahead,
@@ -271,7 +272,11 @@ ul {
     text-align: left; }
   .video iframe {
     padding-bottom: 0;
-    padding-top: 10px; }
+    padding-top: 10px;
+    width: 100%; }
+
+.circleImg img {
+  width: 50vw; }
 
 .circleImg,
 .investIcon {
@@ -282,11 +287,10 @@ ul {
   padding-bottom: 15px; }
   .singleCharge h2 {
     font-weight: bold; }
-  .singleCharge h3 {
-    border-bottom: 2px solid #f4f4f4; }
 
 .charge {
-  text-align: center; }
+  text-align: center;
+  line-height: 25px; }
 
 ol {
   margin-left: 40px;

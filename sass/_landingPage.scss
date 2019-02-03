@@ -47,9 +47,8 @@
 }
 
 .banner3 {
-  background: url('../../images/Why-China-Image.jpg') no-repeat;
-  padding-top: 3.5rem;
-  height: 19vh;
+  background: url('../../images/Why-China-Image.jpg') no-repeat center;
+  height: 28vh;
 }
 
 .invest,
@@ -70,7 +69,12 @@
   iframe {
     padding-bottom: 0;
     padding-top: 10px;
+    width: 100%;
   }
+}
+
+.circleImg img {
+  width: 50vw;
 }
 
 .circleImg,
@@ -85,14 +89,11 @@
   h2 {
     font-weight: bold;
   }
-
-  h3 {
-    border-bottom: $color_borderOne;
-  }
 }
 
 .charge {
   text-align: center;
+  line-height: 25px;
 }
 
 ol {
