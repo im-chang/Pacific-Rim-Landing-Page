@@ -129,13 +129,13 @@ table {
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Light.woff2") format("woff2"), url("/fonts/Roboto-Light.woff") format("woff");
+  src: url("../../fonts/Roboto-Light.woff2") format("woff2"), url("../../fonts/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Bold.woff2") format("woff2"), url("/fonts/Roboto-Bold.woff") format("woff");
+  src: url("../../fonts/Roboto-Bold.woff2") format("woff2"), url("../../fonts/Roboto-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 
@@ -226,12 +226,12 @@ ul {
   padding-top: 10px; }
 
 .banner1 {
-  background: url("/images/Title-Image.jpg") no-repeat;
+  background: url("../../images/Title-Image.jpg") no-repeat;
   padding-top: 3.5rem;
   background-size: 100vw 30vh; }
 
 .banner2 {
-  background: url("/images/Image-2.jpg") no-repeat;
+  background: url("../../images/Image-2.jpg") no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,9 +253,9 @@ ul {
         font-weight: lighter; }
 
 .banner3 {
-  background: url("images/Why-China-Image.jpg") no-repeat;
+  background: url("../../images/Why-China-Image.jpg") no-repeat;
   padding-top: 3.5rem;
-  background-size: 100vw 30vh; }
+  height: 19vh; }
 
 .invest,
 .ahead,
