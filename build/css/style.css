@@ -226,13 +226,12 @@ ul {
   padding-top: 10px; }
 
 .banner1 {
-  background: url("/images/Title Image.jpg") no-repeat;
+  background: url("/images/Title-Image.jpg") no-repeat;
   padding-top: 3.5rem;
   background-size: 100vw 30vh; }
 
 .banner2 {
-  background: url("/images/Image 2.jpg") no-repeat;
-  height: 170px;
+  background: url("/images/Image-2.jpg") no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,7 +253,9 @@ ul {
         font-weight: lighter; }
 
 .banner3 {
-  width: 100vw; }
+  background: url("images/Why-China-Image.jpg") no-repeat;
+  padding-top: 3.5rem;
+  background-size: 100vw 30vh; }
 
 .invest,
 .ahead,
