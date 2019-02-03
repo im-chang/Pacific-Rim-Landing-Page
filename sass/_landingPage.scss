@@ -20,7 +20,11 @@
 .banner1 {
   background: url('../../images/Title-Image.jpg') no-repeat;
   padding-top: 3.5rem;
-  background-size: 100vw 30vh;
+  background-size: 100vw 35vh;
+  @include desktop {
+    padding-top: 6rem;
+    background-size: 100vw 55vh;
+  }
 }
 
 .banner2 {
@@ -43,17 +47,26 @@
       }
     }
   }
+  @include desktop {
+    margin: 3rem;
+  }
 }
 
 .banner3 {
   background: url('../../images/Why-China-Image.jpg') no-repeat center;
   height: 21vh;
+  @include desktop {
+    margin: 3rem;
+  }
 }
 
 .invest,
 .ahead,
 .video {
   background: $color__backgroundOne;
+  @include desktop {
+    margin: 3rem;
+  }
 }
 
 .video {

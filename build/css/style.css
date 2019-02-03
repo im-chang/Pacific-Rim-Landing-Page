@@ -244,6 +244,9 @@ ul {
 .sectionContainer {
   margin: 1.5rem;
   padding: 1rem; }
+  @media (min-width: 1000px) {
+    .sectionContainer {
+      margin: 3rem; } }
 
 .title {
   border-bottom: 4px solid #000;
@@ -262,7 +265,11 @@ ul {
 .banner1 {
   background: url("../../images/Title-Image.jpg") no-repeat;
   padding-top: 3.5rem;
-  background-size: 100vw 30vh; }
+  background-size: 100vw 35vh; }
+  @media (min-width: 1000px) {
+    .banner1 {
+      padding-top: 6rem;
+      background-size: 100vw 55vh; } }
 
 .banner2 {
   background: url("../../images/Image-2.jpg") no-repeat;
@@ -285,15 +292,26 @@ ul {
       font-weight: bold; }
       .banner2 .textBackground p span {
         font-weight: lighter; }
+  @media (min-width: 1000px) {
+    .banner2 {
+      margin: 3rem; } }
 
 .banner3 {
   background: url("../../images/Why-China-Image.jpg") no-repeat center;
   height: 21vh; }
+  @media (min-width: 1000px) {
+    .banner3 {
+      margin: 3rem; } }
 
 .invest,
 .ahead,
 .video {
   background: #f8f9fa; }
+  @media (min-width: 1000px) {
+    .invest,
+    .ahead,
+    .video {
+      margin: 3rem; } }
 
 .video {
   padding: 1.5rem;

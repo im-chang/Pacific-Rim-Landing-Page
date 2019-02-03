@@ -51,4 +51,7 @@ ul {
 .sectionContainer {
   margin: 1.5rem;
   padding: 1rem;
+  @include desktop {
+    margin: 3rem;
+  }
 }
