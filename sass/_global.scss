@@ -39,6 +39,9 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 20px;
+  @include desktop {
+    line-height: 2rem;
+  }
 }
 
 ul {
@@ -52,6 +55,8 @@ ul {
   margin: 1.5rem;
   padding: 1rem;
   @include desktop {
-    margin: 3rem;
+    margin: 4.5rem;
+    padding: 4rem;
+    padding-top: 3rem;
   }
 }

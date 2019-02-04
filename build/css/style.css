@@ -235,6 +235,10 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 20px; }
+  @media (min-width: 1000px) {
+    p,
+    li {
+      line-height: 2rem; } }
 
 ul {
   margin: 15px; }
@@ -246,7 +250,9 @@ ul {
   padding: 1rem; }
   @media (min-width: 1000px) {
     .sectionContainer {
-      margin: 3rem; } }
+      margin: 4.5rem;
+      padding: 4rem;
+      padding-top: 3rem; } }
 
 .title {
   border-bottom: 4px solid #000;
@@ -268,7 +274,7 @@ ul {
   background-size: 100vw 35vh; }
   @media (min-width: 1000px) {
     .banner1 {
-      padding-top: 6rem;
+      padding-top: 5rem;
       background-size: 100vw 55vh; } }
 
 .banner2 {
@@ -294,7 +300,13 @@ ul {
         font-weight: lighter; }
   @media (min-width: 1000px) {
     .banner2 {
-      margin: 3rem; } }
+      margin: 4.5rem;
+      height: 26vh;
+      background-position: top; }
+      .banner2 .textBackground {
+        margin-left: 0;
+        padding-left: 3rem;
+        width: 70vw; } }
 
 .banner3 {
   background: url("../../images/Why-China-Image.jpg") no-repeat center;
@@ -307,11 +319,6 @@ ul {
 .ahead,
 .video {
   background: #f8f9fa; }
-  @media (min-width: 1000px) {
-    .invest,
-    .ahead,
-    .video {
-      margin: 3rem; } }
 
 .video {
   padding: 1.5rem;
@@ -324,9 +331,15 @@ ul {
     padding-bottom: 0;
     padding-top: 10px;
     width: 100%; }
+  @media (min-width: 1000px) {
+    .video {
+      margin: 4.5rem; } }
 
 .circleImg img {
   width: 50vw; }
+  @media (min-width: 1000px) {
+    .circleImg img {
+      width: initial; } }
 
 .circleImg,
 .investIcon {
