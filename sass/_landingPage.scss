@@ -13,6 +13,11 @@
   background: white;
 }
 
+.about .sectionContainer p,
+.indonesia .sectionContainer li {
+  line-height: 2.2rem;
+}
+
 .opportunity h1 {
   padding-top: 10px;
 }
@@ -22,7 +27,7 @@
   padding-top: 3.5rem;
   background-size: 100vw 35vh;
   @include desktop {
-    padding-top: 5rem;
+    padding-top: 10.5rem;
     background-size: 100vw 55vh;
   }
 }
@@ -50,6 +55,8 @@
   @include desktop {
     margin: 4.5rem;
     height: 26vh;
+    margin-top: 0;
+    margin-bottom: 0;
     background-position: top;
     .textBackground {
       margin-left: 0;
@@ -64,6 +71,8 @@
   height: 21vh;
   @include desktop {
     margin: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -89,6 +98,8 @@
   }
   @include desktop {
     margin: 4.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
     height: 55vh;
     padding-top: 4rem;
     h2 {
@@ -108,13 +119,21 @@
 .circleImg img {
   width: 50vw;
   @include desktop {
-    width: initial;
+    display: none;
   }
 }
 
 .circleImg,
 .investIcon {
   text-align: center;
+}
+
+.circleImgPC {
+  display: none;
+  @include desktop {
+    display: block;
+    float: right;
+  }
 }
 
 .percent {

@@ -252,7 +252,9 @@ ul {
     .sectionContainer {
       margin: 4.5rem;
       padding: 4rem;
-      padding-top: 3rem; } }
+      padding-top: 3rem;
+      margin-top: 0;
+      margin-bottom: 0; } }
 
 .title {
   border-bottom: 4px solid #000;
@@ -265,6 +267,10 @@ ul {
 .about .sectionContainer {
   background: white; }
 
+.about .sectionContainer p,
+.indonesia .sectionContainer li {
+  line-height: 2.2rem; }
+
 .opportunity h1 {
   padding-top: 10px; }
 
@@ -274,7 +280,7 @@ ul {
   background-size: 100vw 35vh; }
   @media (min-width: 1000px) {
     .banner1 {
-      padding-top: 5rem;
+      padding-top: 10.5rem;
       background-size: 100vw 55vh; } }
 
 .banner2 {
@@ -302,6 +308,8 @@ ul {
     .banner2 {
       margin: 4.5rem;
       height: 26vh;
+      margin-top: 0;
+      margin-bottom: 0;
       background-position: top; }
       .banner2 .textBackground {
         margin-left: 0;
@@ -313,7 +321,9 @@ ul {
   height: 21vh; }
   @media (min-width: 1000px) {
     .banner3 {
-      margin: 3rem; } }
+      margin: 3rem;
+      margin-top: 0;
+      margin-bottom: 0; } }
 
 .invest,
 .ahead,
@@ -334,6 +344,8 @@ ul {
   @media (min-width: 1000px) {
     .video {
       margin: 4.5rem;
+      margin-top: 0;
+      margin-bottom: 0;
       height: 55vh;
       padding-top: 4rem; }
       .video h2 {
@@ -349,11 +361,18 @@ ul {
   width: 50vw; }
   @media (min-width: 1000px) {
     .circleImg img {
-      width: initial; } }
+      display: none; } }
 
 .circleImg,
 .investIcon {
   text-align: center; }
+
+.circleImgPC {
+  display: none; }
+  @media (min-width: 1000px) {
+    .circleImgPC {
+      display: block;
+      float: right; } }
 
 .percent {
   padding-top: 10px;
