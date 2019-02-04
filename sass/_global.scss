@@ -13,6 +13,9 @@ li {
 
 h1 {
   font-size: 30px;
+  @include desktop {
+    display: inline;
+  }
 }
 h2 {
   font-weight: bold;
@@ -20,6 +23,7 @@ h2 {
   @include desktop {
     font-weight: initial;
     font-size: 30px;
+    display: inline;
   }
 }
 

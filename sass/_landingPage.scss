@@ -13,7 +13,7 @@
   background: white;
 }
 
-.opportunity h1 {
+.opportunity .sectionTitle {
   padding-top: 2rem;
 }
 
@@ -24,6 +24,9 @@
   @include desktop {
     padding-top: 10.5rem;
     background-size: 100vw 550px;
+    .second-h2 {
+      display: block;
+    }
   }
 }
 
@@ -55,7 +58,7 @@
     background-position: top;
     .textBackground {
       margin-left: 0;
-      padding-left: 3rem;
+      padding-left: 4rem;
       width: 70vw;
     }
   }
