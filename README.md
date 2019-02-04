@@ -4,7 +4,7 @@ By: Mike Chang
 
 # Description
 
--Pacific Rim is a landing page that highlights the opportunities that it offers to investors in the Battery Metal Sectors. This landing page allows potential investors to easily obtain a brief overview of potential investment opportunities as well as information on why Pacific Landing plays a crutial role in this market.
+Pacific Rim is a landing page that highlights the opportunities that it offers to investors in the Battery Metal Sectors. This landing page allows potential investors to easily obtain a brief overview of potential investment opportunities as well as information on why Pacific Landing plays a crutial role in this market.
 
 # ScreenShot of Landing Page:
 
@@ -13,8 +13,11 @@ By: Mike Chang
 # Technologies Used:
 
 -html5
+
 -css3
+
 -scss
+
 -gulp
 
 # Goals and Future Considerations:
