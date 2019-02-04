@@ -333,7 +333,17 @@ ul {
     width: 100%; }
   @media (min-width: 1000px) {
     .video {
-      margin: 4.5rem; } }
+      margin: 4.5rem;
+      height: 55vh;
+      padding-top: 4rem; }
+      .video h2 {
+        font-size: 30px; }
+      .video p {
+        text-align: center;
+        font-size: 30px; }
+      .video iframe {
+        height: 70%;
+        width: 55%; } }
 
 .circleImg img {
   width: 50vw; }

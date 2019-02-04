@@ -89,6 +89,19 @@
   }
   @include desktop {
     margin: 4.5rem;
+    height: 55vh;
+    padding-top: 4rem;
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      text-align: center;
+      font-size: 30px;
+    }
+    iframe {
+      height: 70%;
+      width: 55%;
+    }
   }
 }
 
