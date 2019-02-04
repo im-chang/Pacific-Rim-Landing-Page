@@ -398,10 +398,29 @@ ul {
   padding-bottom: 15px; }
   .singleCharge h2 {
     font-weight: bold; }
+  .singleCharge p .headerDivider {
+    display: none; }
+    @media (min-width: 1000px) {
+      .singleCharge p .headerDivider {
+        display: initial; } }
+  @media (min-width: 1000px) {
+    .singleCharge p .headerDivider2 {
+      display: none; } }
 
 .charge {
   text-align: center;
   line-height: 25px; }
+  @media (min-width: 1000px) {
+    .charge {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .charge h2,
+      .charge h3 {
+        padding: 10px;
+        padding-right: 0px; }
+      .charge h3::before {
+        content: ' - '; } }
 
 ol {
   margin-left: 40px;

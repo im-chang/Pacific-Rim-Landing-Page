@@ -167,11 +167,36 @@
   h2 {
     font-weight: bold;
   }
+
+  p {
+    .headerDivider {
+      display: none;
+      @include desktop {
+        display: initial;
+      }
+    }
+  }
+  @include desktop {
+    p .headerDivider2 {
+      display: none;
+    }
+  }
 }
 
 .charge {
   text-align: center;
   line-height: 25px;
+  @include desktop {
+    display: flex;
+    h2,
+    h3 {
+      padding: 10px;
+      padding-right: 0px;
+    }
+    h3::before {
+      content: ' - ';
+    }
+  }
 }
 
 ol {
