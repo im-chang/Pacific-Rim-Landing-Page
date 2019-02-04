@@ -4,7 +4,7 @@ header {
   justify-content: center;
   @include desktop {
     flex-wrap: nowrap;
-    height: 15vh;
+    height: 130px;
   }
 
   .logo {

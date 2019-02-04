@@ -15,7 +15,9 @@
 
 .about .sectionContainer p,
 .indonesia .sectionContainer li {
-  line-height: 2.2rem;
+  @include desktop {
+    line-height: 2.2rem;
+  }
 }
 
 .opportunity h1 {
@@ -25,10 +27,10 @@
 .banner1 {
   background: url('../../images/Title-Image.jpg') no-repeat;
   padding-top: 3.5rem;
-  background-size: 100vw 35vh;
+  background-size: 100vw 250px;
   @include desktop {
     padding-top: 10.5rem;
-    background-size: 100vw 55vh;
+    background-size: 100vw 550px;
   }
 }
 
@@ -54,7 +56,7 @@
   }
   @include desktop {
     margin: 4.5rem;
-    height: 26vh;
+    height: 230px;
     margin-top: 0;
     margin-bottom: 0;
     background-position: top;
@@ -68,11 +70,13 @@
 
 .banner3 {
   background: url('../../images/Why-China-Image.jpg') no-repeat center;
-  height: 21vh;
+  height: 180px;
+  background-size: cover;
   @include desktop {
-    margin: 3rem;
+    margin: 4.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    height: 230px;
   }
 }
 
@@ -100,7 +104,7 @@
     margin: 4.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    height: 55vh;
+    height: 550px;
     padding-top: 4rem;
     h2 {
       font-size: 30px;
