@@ -13,7 +13,7 @@
   background: white;
 }
 
-.about .sectionContainer p,
+.about .sectionContainer li,
 .indonesia .sectionContainer li {
   @include desktop {
     line-height: 2.2rem;
@@ -84,6 +84,18 @@
 .ahead,
 .video {
   background: $color__backgroundOne;
+  @include desktop {
+    margin: 4.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.ahead .sectionContainer,
+.invest .sectionContainer {
+  @include desktop {
+    margin: 0;
+  }
 }
 
 .video {
@@ -101,9 +113,6 @@
     width: 100%;
   }
   @include desktop {
-    margin: 4.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
     height: 550px;
     padding-top: 4rem;
     h2 {
@@ -143,6 +152,12 @@
 .percent {
   padding-top: 10px;
   padding-bottom: 10px;
+  @include desktop {
+    display: flex;
+    p {
+      width: 50vw;
+    }
+  }
 }
 
 .singleCharge {

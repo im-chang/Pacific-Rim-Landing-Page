@@ -235,10 +235,6 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 20px; }
-  @media (min-width: 1000px) {
-    p,
-    li {
-      line-height: 2rem; } }
 
 ul {
   margin: 15px; }
@@ -268,7 +264,7 @@ ul {
   background: white; }
 
 @media (min-width: 1000px) {
-  .about .sectionContainer p,
+  .about .sectionContainer li,
   .indonesia .sectionContainer li {
     line-height: 2.2rem; } }
 
@@ -332,6 +328,18 @@ ul {
 .ahead,
 .video {
   background: #f8f9fa; }
+  @media (min-width: 1000px) {
+    .invest,
+    .ahead,
+    .video {
+      margin: 4.5rem;
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+@media (min-width: 1000px) {
+  .ahead .sectionContainer,
+  .invest .sectionContainer {
+    margin: 0; } }
 
 .video {
   padding: 1.5rem;
@@ -346,9 +354,6 @@ ul {
     width: 100%; }
   @media (min-width: 1000px) {
     .video {
-      margin: 4.5rem;
-      margin-top: 0;
-      margin-bottom: 0;
       height: 550px;
       padding-top: 4rem; }
       .video h2 {
@@ -380,6 +385,13 @@ ul {
 .percent {
   padding-top: 10px;
   padding-bottom: 10px; }
+  @media (min-width: 1000px) {
+    .percent {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .percent p {
+        width: 50vw; } }
 
 .singleCharge {
   padding-top: 15px;
