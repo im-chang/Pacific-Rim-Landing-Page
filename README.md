@@ -1,4 +1,4 @@
-# Pacific-Rim-Landing-Page
+# Pacific Rim Landing Page
 
 By: Mike Chang
 
