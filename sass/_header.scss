@@ -4,7 +4,7 @@ header {
   justify-content: center;
   @include desktop {
     flex-wrap: nowrap;
-    height: 130px;
+    height: 150px;
   }
 
   .logo {
@@ -15,6 +15,8 @@ header {
     @include desktop {
       position: absolute;
       left: 0;
+      padding-left: 4.5rem;
+      height: initial;
     }
   }
 
@@ -25,6 +27,7 @@ header {
       position: absolute;
       right: 0;
       padding: 2rem;
+      padding-right: 4.5rem;
       padding-bottom: 0;
     }
   }
@@ -52,6 +55,10 @@ header {
     width: 100px;
     padding: 5px;
     height: 25px;
+    @include desktop {
+      height: initial;
+      width: 150px;
+    }
   }
 
   p {

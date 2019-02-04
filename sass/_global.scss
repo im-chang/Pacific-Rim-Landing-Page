@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 5rem;
+}
+
 h1,
 h2,
 h3,
@@ -13,6 +17,10 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 19px;
+  @include desktop {
+    font-weight: initial;
+    font-size: 30px;
+  }
 }
 
 .sectionTitle {
@@ -39,6 +47,9 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 20px;
+  @include desktop {
+    line-height: 2.2rem;
+  }
 }
 
 ul {

@@ -152,7 +152,7 @@ header {
     header {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
-      height: 130px; } }
+      height: 150px; } }
   header .logo {
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
@@ -163,7 +163,9 @@ header {
     @media (min-width: 1000px) {
       header .logo {
         position: absolute;
-        left: 0; } }
+        left: 0;
+        padding-left: 4.5rem;
+        height: initial; } }
   header .bothLogo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -174,6 +176,7 @@ header {
         position: absolute;
         right: 0;
         padding: 2rem;
+        padding-right: 4.5rem;
         padding-bottom: 0; } }
   header .logoContainer {
     padding: 10px;
@@ -195,9 +198,16 @@ header {
     width: 100px;
     padding: 5px;
     height: 25px; }
+    @media (min-width: 1000px) {
+      header .sideLogo {
+        height: initial;
+        width: 150px; } }
   header p {
     margin: 0;
     font-weight: bold; }
+
+body {
+  margin-bottom: 5rem; }
 
 h1,
 h2,
@@ -213,6 +223,10 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 19px; }
+  @media (min-width: 1000px) {
+    h2 {
+      font-weight: initial;
+      font-size: 30px; } }
 
 .sectionTitle {
   padding-bottom: 10px;
@@ -235,6 +249,10 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 20px; }
+  @media (min-width: 1000px) {
+    p,
+    li {
+      line-height: 2.2rem; } }
 
 ul {
   margin: 15px; }
@@ -263,13 +281,8 @@ ul {
 .about .sectionContainer {
   background: white; }
 
-@media (min-width: 1000px) {
-  .about .sectionContainer li,
-  .indonesia .sectionContainer li {
-    line-height: 2.2rem; } }
-
 .opportunity h1 {
-  padding-top: 10px; }
+  padding-top: 2rem; }
 
 .banner1 {
   background: url("../../images/Title-Image.jpg") no-repeat;
@@ -345,7 +358,8 @@ ul {
   padding: 1.5rem;
   text-align: center; }
   .video h2 {
-    font-size: 13px; }
+    font-size: 13px;
+    font-weight: bold; }
   .video p {
     text-align: left; }
   .video iframe {
@@ -366,7 +380,7 @@ ul {
         width: 55%; } }
 
 .circleImg img {
-  width: 50vw; }
+  width: 200px; }
   @media (min-width: 1000px) {
     .circleImg img {
       display: none; } }
@@ -392,6 +406,10 @@ ul {
       display: flex; }
       .percent p {
         width: 50vw; } }
+
+.source {
+  font-style: italic;
+  color: #c9caca; }
 
 .singleCharge {
   padding-top: 15px;

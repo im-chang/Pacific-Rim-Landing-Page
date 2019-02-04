@@ -13,15 +13,8 @@
   background: white;
 }
 
-.about .sectionContainer li,
-.indonesia .sectionContainer li {
-  @include desktop {
-    line-height: 2.2rem;
-  }
-}
-
 .opportunity h1 {
-  padding-top: 10px;
+  padding-top: 2rem;
 }
 
 .banner1 {
@@ -103,6 +96,7 @@
   text-align: center;
   h2 {
     font-size: 13px;
+    font-weight: bold;
   }
   p {
     text-align: left;
@@ -130,7 +124,7 @@
 }
 
 .circleImg img {
-  width: 50vw;
+  width: 200px;
   @include desktop {
     display: none;
   }
@@ -158,6 +152,11 @@
       width: 50vw;
     }
   }
+}
+
+.source {
+  font-style: italic;
+  color: #c9caca;
 }
 
 .singleCharge {
